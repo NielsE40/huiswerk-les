@@ -1,0 +1,59 @@
+@media only screen and (min-width: 368px) { [class*="col-"] {float: left;padding: 5px;}
+   
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-image: url('header.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'YourExternalFont', 'Times New Roman', Times, serif;
+  color: white;
+}
+
+img {
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    transform: scaleX(-1);
+  }
+
+.central {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-col {
+  flex: 2;
+  padding: 20px;
+}
+
+.right-col {
+  flex: 8;
+  padding: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.attraction {
+  flex: 4;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
